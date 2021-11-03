@@ -2,7 +2,7 @@ clear;clc;close all
 
 %% Load Data
 % 
-dataFolder = 'C:\Users\esthe\OneDrive\Desktop\sp_train';
+dataFolder = '...\sp_train';
 
 imds = imageDatastore(dataFolder, 'IncludeSubfolders', true, 'LabelSource', 'foldernames');
 
